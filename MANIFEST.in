@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include procure_expense *.css
+recursive-include procure_expense *.csv
+recursive-include procure_expense *.html
+recursive-include procure_expense *.ico
+recursive-include procure_expense *.js
+recursive-include procure_expense *.json
+recursive-include procure_expense *.md
+recursive-include procure_expense *.png
+recursive-include procure_expense *.py
+recursive-include procure_expense *.svg
+recursive-include procure_expense *.txt
+recursive-exclude procure_expense *.pyc
